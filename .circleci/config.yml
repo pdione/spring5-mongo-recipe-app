@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Running tests and gen code coverage
           command:
-            chmod +x gradlew
+            chmod +x gradlew;
             ./gradlew clean test jacocoTestReport
 
       - run:
